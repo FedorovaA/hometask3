@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".currency.CurrencyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="Шекель"
+        />
+    <EditText
+        android:id="@+id/ed_curr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите шекель"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:inputType="number"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Перевести"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/txt_rub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:hint="Рубль"
+        />
+    <EditText
+        android:id="@+id/ed_rub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите рубль"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:inputType="number"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btn_convert2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Перевести"
+        android:textColor="@color/colorText" />
+</FrameLayout>
